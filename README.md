@@ -2,6 +2,9 @@
 
 AWS Aurora DB Cluster & Instance(s) Terraform Module.
 
+Forked from claranet/terraform-aws-aurora
+
+
 Gives you:
 
  - A DB subnet group
