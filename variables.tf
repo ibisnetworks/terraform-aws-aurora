@@ -242,7 +242,6 @@ variable "replica_scale_out_cooldown" {
   description = "Cooldown in seconds before allowing further scaling operations after a scale out"
 }
 
-<<<<<<< HEAD
 variable "maintenance_instance_enabled" {
   type        = "string"
   default     = false
@@ -253,7 +252,7 @@ variable "maintenance_instance_type" {
   type        = "string"
   default     = "db.r4.xlarge"                                                                                         // to prevent costly accidents!  set this to the real value when needed
   description = "Instance type for large DB maintenance instances - set to something like db.r4.16xlarge when needed!"
-=======
+
 variable "performance_insights_enabled" {
   type        = string
   default     = false
@@ -276,5 +275,4 @@ variable "enabled_cloudwatch_logs_exports" {
   type        = list(string)
   default     = []
   description = "List of log types to export to CloudWatch Logs. If omitted, no logs will be exported. The following log types are supported: audit, error, general, slowquery, postgresql."
->>>>>>> 4e5d83bb89fc3fda92b1d34288c3fa00b35c1844
 }
